@@ -152,6 +152,80 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-hexo博客创建" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/08/05/hexo博客创建/">hexo博客创建</a>
+    </h1>
+  
+
+        
+        <a href="/2019/08/05/hexo博客创建/" class="archive-article-date">
+  	<time datetime="2019-08-05T12:48:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-05</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>一 、git与github<br>1下载git<br>2注册github<br>3将git与github连接起来，即在setting里添加ssh密钥<br>将github的文件从网络上加载到本地<br>二、将github上的仓库内容下载到本地(记得git init)<br>1、将仓库与git连接 git remote add origin 仓库地址<br>2、git pull origin master<br>三将本地文件推送到git上<br>1、git add 文件名  将文件保存到GitHub的暂存区<br>2、git commit -m ‘demo’<br>3、git push origin master<br>4、git add .         推多个文件到github 上<br>四 hexo与github连接<br>1、npm install hexo-cli -g安装hexo<br>2、node.js<br>3、hexo init<br>4、hexo install 安装hexo的依赖<br>_config.yml 里repo的修改使用http的<br>5、npm install hexo-deployer-git –save<br>6、hexo g<br>7、hexo d<br>五、更改主题<br>_config 更改主题themes: yilia</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">心得</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/08/05/hexo博客创建/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -318,6 +392,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">心得</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
